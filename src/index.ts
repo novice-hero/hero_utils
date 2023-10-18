@@ -1,6 +1,14 @@
-const add = (a: number, b: number) => a + b;
-const subtract = (a: number, b: number) => a - b;
-const multiply = (a: number, b: number) => a * b;
-const divide = (a: number, b: number) => a / b;
+function add(a: number, b: number) {
+  return a + b;
+}
+function subtract(a: number, b: number) {
+  return a - b;
+}
+function multiply(a: number, b: number) {
+  return a * b;
+}
+function divide(a: number, b: number) {
+  return a / b;
+}
 
 export { add, subtract, multiply, divide };

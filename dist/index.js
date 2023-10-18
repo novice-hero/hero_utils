@@ -1,11 +1,13 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
-const add = (a, b) => a + b;
-exports.add = add;
-const subtract = (a, b) => a - b;
-exports.subtract = subtract;
-const multiply = (a, b) => a * b;
-exports.multiply = multiply;
-const divide = (a, b) => a / b;
-exports.divide = divide;
+function add(a, b) {
+    return a + b;
+}
+function subtract(a, b) {
+    return a - b;
+}
+function multiply(a, b) {
+    return a * b;
+}
+function divide(a, b) {
+    return a / b;
+}
+export { add, subtract, multiply, divide };

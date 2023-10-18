@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
+    "target": "ES5",
+    "module": "ES2020",
     "lib": ["es5", "es6", "dom"],
-    "declaration": true /* 타입스크립트가 자동으로 타입정의 d.ts 파일을 생성합니다. */,
-    "outDir": "dist" /* 컴파일된 결과물을 어디에 저장할지에 대한 것을 명시합니다. */,
+    "moduleResolution": "node",
+    "declaration": true /* 타입스크립트가 자동으로 타입정의 d.ts 파일 생성 */,
+    "outDir": "dist" /* 컴파일된 결과물을 어디에 저장할지 */,
     "strict": true
   },
   "include": ["src/index.ts"]
